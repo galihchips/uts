@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Galih</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: whitesmoke;
+        }
+        .nav-link {
+            color: black;
+        }
+        .col {
+            margin-bottom: 50px;
+        }
+        .content-intro {
+          justify-self: center;
+          justify-content: center;
+          align-items: center;
+        }
+        h1.question  {
+            font-family:'Montserrat', sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+        h4.question {
+            font-family:'Montserrat', sans-serif;
+            text-align: center;
+        }
+        h3.title {
+            margin-top:  50px;
+            font-family:'Montserrat', sans-serif;
+        }
+        .img-card {
+            width: 280px;
+            height: 200px;
+            margin-top: 50px;
+        }
+        .img-card-shopee {
+            width: 280px;
+            height: 280px;
+            margin-top: 10px;
+        }
+        .row {
+            margin : 100px 250px;
+        }
+        
+        html {
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+        ::-webkit-scrollbar {
+            width: 0;  /* Remove scrollbar space */
+            background: transparent;  /* Optional: just make scrollbar invisible */
+        }
+        /* Optional: show position indicator in red */
+        ::-webkit-scrollbar-thumb {
+            background: #FF0000;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-light navbar-expand-md bg-light justify-content-md-center justify-content-start">
+        <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand d-md-none d-inline " href="">Welcome</a>
+        <a class="nav-link" href="#_"><i class="fa fa-search mr-1"></i></a> 
+        <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+            <ul class="navbar-nav mx-auto text-md-center text-left">
+                <li class="nav-item">
+                    <a class="nav-link" href="../../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../about/index.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../portfolio/index.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Project</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../contact/index.html">Contact</a>
+                </li>
+            </ul>
+        
+        </div>
+    </nav>
+    <div>
+        <h1 class="question">
+            List of Project
+        </h1>
+        <h4 class="question">Let me show you about my projects i've worked on</h4>
+    </div>
+    <div class="row d-flex justify-content-around">
+        <div class="col">
+            
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top img-card-shopee" src="https://brandlogos.net/wp-content/uploads/2021/10/shopee-logo-1.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Create Shopee Clone App with React Native</p>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/32c25ae53301edf60eecf87891c1c695.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Create, Build, and Design PayOK Apps for Android and IOs</p>
+                </div>
+              </div>
+        </div>
+        
+        <div class="col">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="https://selleri.id/logo512.png" alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Create, Build, and Design Selleri Apps for Android and IOs</p>
+                </div>
+              </div>
+        </div>
+      </div>
+</body>
+</html>
